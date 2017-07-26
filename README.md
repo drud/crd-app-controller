@@ -17,7 +17,11 @@ kubectl create -f app-resourcedef.yml
 The controller can be run from outside the cluster, which is handy for development.
 
 ```
-go run *.go -kubeconfig=$HOME/.kube/config
+make darwin
+```
+
+```
+./cmd -kubeconfig=$HOME/.kube/config
 ```
 
 ### Create app resources
