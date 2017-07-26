@@ -1,0 +1,7 @@
+apiVersion: "drud.com/v1"
+kind: App
+metadata:
+  name: my-drupal-site
+spec:
+  name: "potatocakes.io"
+  type: drupal

@@ -1,0 +1,7 @@
+apiVersion: "drud.com/v1"
+kind: App
+metadata:
+  name: my-potato-site
+spec:
+  name: "invalid.test"
+  type: potato
